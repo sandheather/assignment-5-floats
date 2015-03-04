@@ -1,0 +1,214 @@
+html{
+		box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body{
+  margin:0;
+}
+header{
+	background-color: #cd5b34;
+  font-size: 3rem;
+  color: #fff;
+}
+
+nav{
+  text-align: center
+}
+
+nav ol {
+
+  list-style-type: none;
+  margin: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  padding:0;
+}
+
+nav li {
+  border: 1pt solid #a33f3a;
+  display: inline-block;
+  margin:none;
+  float:left;
+  width: 33.3%;
+}
+
+
+nav a {
+  display:block;
+  background-color: #cd5b34;
+  padding: 0.5em 0.75em;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  background-color: #a93f35;
+  color: #fff;
+}
+
+h1{
+	background-color: #cd5b34;
+	font-size: 2.2rem;
+  text-align: center;
+  margin: 0rem;
+  padding:1rem;
+  font-style: normal;
+}
+h2{
+	background-color: #dc8252;
+	font-size: 1.1rem;
+  padding: 1rem;
+  color: #fff;
+  clear:both;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  text-align: center;
+}
+
+h3{
+font-size: 1.1rem;
+clear:both;
+text-align: center;
+padding-top: 1em;
+}
+
+figure{
+  margin: 0;
+  border:0;
+}
+figcaption{
+	background-color: #dc8252;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  padding-top: 0rem;
+
+}
+
+.oats-cap{
+background-color: #dc8252;
+  font-size: 0.9rem;
+  padding: 1rem;
+  padding-top: 0.3rem;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  float:right;
+  display: block;
+}
+
+.rice-cap{
+background-color: #dc8252;
+  font-size: 0.9rem;
+  padding: 1rem;
+  padding-top: 0.3rem;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  float:left;
+  display:block;
+}
+
+div{
+  background-color: #dc8252;
+}
+
+.logo{
+  width: 10%;
+  float:left;
+  padding-top: 15px;
+}
+
+.logo2{
+  width: 10%;
+  float:right;
+  padding-top: 15px;
+}
+
+p{
+  font-size: 0.8rem;
+  margin: 4em 0em 0em 1em;;
+}
+
+.second-p{
+font-size: 0.8rem;
+  margin: 1em 0em 1em 1em;
+}
+
+.grains{
+  float:left;
+  width: 50%;
+  margin: 10px 13px 13px 13px;
+
+}
+
+.cereals{
+  float:right;
+  clear:left;
+  width: 50%;
+  margin:13px;
+}
+
+.quinoa{
+  float:right;
+  clear:both;
+  width: 50%;
+  margin:13px;
+}
+
+.corn{
+  width:100%;
+
+}
+
+.rice{
+width: 50%;
+float:left;
+}
+
+.oats{
+  width: 50%;
+  float:right;
+}
+.peanuts, .lentils, .beans {
+  width:30%;
+
+}
+
+
+footer{
+  background-color: #cd5b34;
+  font-size: 0.5rem;
+  color: #fff;
+  margin:0em;
+  padding: 1em;
+  width:100%;
+  display: inline-block;
+
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+  font-size: 1em;
+  font-style: italic;
+  padding: 0;
+}
+
+ul li {
+  margin: 0 1em 0 0;
+  overflow: hidden;
+}
+
+span {
+  font-weight: bold;
+}
+
