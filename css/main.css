@@ -1,3 +1,4 @@
+
 html{
 		box-sizing: border-box;
 }
@@ -8,6 +9,7 @@ box-sizing: inherit;
 
 body{
   margin:0;
+  font-size: 100%
 }
 header{
 	background-color: #cd5b34;
@@ -31,9 +33,9 @@ nav ol {
 nav li {
   border: 1pt solid #a33f3a;
   display: inline-block;
-  margin:none;
+  margin:0;
   float:left;
-  width: 33.3%;
+  width: 33.333%;
 }
 
 
@@ -71,7 +73,7 @@ h2{
 }
 
 h3{
-font-size: 1.1rem;
+font-size: 1.3rem;
 clear:both;
 text-align: center;
 padding-top: 1em;
@@ -93,27 +95,38 @@ figcaption{
 }
 
 .oats-cap{
-background-color: #dc8252;
+  background-color: #dc8252;
   font-size: 0.9rem;
   padding: 1rem;
-  padding-top: 0.3rem;
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
   color: #fff;
-  text-align: center;
+  text-align:center;
   font-style: italic;
   float:right;
   display: block;
+  width:50%;
+  clear:right;
 }
 
 .rice-cap{
-background-color: #dc8252;
+  background-color: #dc8252;
   font-size: 0.9rem;
   padding: 1rem;
   padding-top: 0.3rem;
+  padding-right: 1rem;
+  padding-left:0em;
   color: #fff;
   text-align: center;
   font-style: italic;
   float:left;
   display:block;
+  width:50%;
+  clear:both;
+}
+.corn-cap{
+  clear:both;
 }
 
 div{
@@ -121,50 +134,56 @@ div{
 }
 
 .logo{
-  width: 10%;
+  width: 20pt;
   float:left;
   padding-top: 15px;
 }
 
 .logo2{
-  width: 10%;
+  width: 20pt;
   float:right;
   padding-top: 15px;
 }
 
 p{
-  font-size: 0.8rem;
-  margin: 4em 0em 0em 1em;;
+  font-size: 1em;
+  margin: 50px 0px 0px 10px;
+  line-height: 1.5em;
+
+
 }
 
 .second-p{
-font-size: 0.8rem;
-  margin: 1em 0em 1em 1em;
+  font-size: 1em;
+  margin: 10px 0px 10px 10px;
+
+
 }
 
 .grains{
   float:left;
-  width: 50%;
-  margin: 10px 13px 13px 13px;
+  width: 40%;
+  margin: 10px 10px 10px 10px;
 
 }
 
 .cereals{
   float:right;
   clear:left;
-  width: 50%;
-  margin:13px;
+  width: 40%;
+  margin:10px;
 }
 
 .quinoa{
   float:right;
   clear:both;
-  width: 50%;
-  margin:13px;
+  width: 40%;
+  margin:10px;
 }
 
 .corn{
   width:100%;
+  clear:both;
 
 }
 
@@ -175,19 +194,24 @@ float:left;
 
 .oats{
   width: 50%;
-  float:right;
-}
-.peanuts, .lentils, .beans {
-  width:30%;
-
+  display:inline;
+  clear:both;
 }
 
+
+.legumes {
+  float: left;
+  width: 25%;
+  clear: both;
+  margin:10px;
+  margin-bottom: 0;
+}
 
 footer{
   background-color: #cd5b34;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: #fff;
-  margin:0em;
+  margin-top:2em;
   padding: 1em;
   width:100%;
   display: inline-block;
@@ -195,20 +219,12 @@ footer{
   text-align: center;
 }
 
-ul {
-  list-style: none;
-  display: inline;
-  font-size: 1em;
-  font-style: italic;
-  padding: 0;
-}
 
-ul li {
-  margin: 0 1em 0 0;
-  overflow: hidden;
-}
+.peanuts{
+  margin:10px;
+  margin-bottom: 15%;
+  padding-top: 5px;
+  font-size: 0.9em;
 
-span {
-  font-weight: bold;
-}
 
+}
